@@ -1,0 +1,19 @@
+{
+  "name": "ai-sharepoint-chat-api",
+  "version": "1.0.0",
+  "description": "Azure Functions backend for SharePoint AI Chat",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "openai": "^4.28.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.3.3"
+  }
+}
